@@ -9,8 +9,7 @@ body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #fff url(../imagens/fundo3.png) no-repeat;
 	width: 100%;
-
-
+	background-size:contain;
 }
 
 #container{
