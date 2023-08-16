@@ -1,0 +1,262 @@
+/* Estrutura do site*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo3.png) no-repeat;
+	width: 100%;
+	background-size:contain;
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+
+}
+
+#topo{
+	height: 150px;
+	/*background: url(../imagens/detalhe-topo1.png) no-repeat right top;*/
+	padding-top: 25px;	
+	
+}
+
+.logo{
+	font-size: 3em;
+	color: #0a2929;
+	font-family: "Showcar Gothic", sans-serif;
+}
+
+
+/*barra de navegação*/
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul{
+	margin-top: -53px;
+	margin-left: 140px;
+	background: #006666;
+	float: left;
+}
+
+#topo ul li{
+	float: left;
+}
+
+#topo ul a{
+	font-size: 1em;
+	display: bolck;
+	padding: 0.5em 2em;
+	line-height: 2.5em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor2.png) no-repeat left center;
+
+}
+
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #003333;
+}
+
+body.home #navegacao a#home,
+body.Encontrei #navegacao a#Encontrei,
+body.Campanhas #navegacao a#Campanhas,
+body.Contato #navegacao a#Contato,
+{
+	color: #fff;
+	background: #003333;
+	cursor: text;
+
+}
+
+/* Configura layout de três colunas */
+
+#conteudo {
+	margin-top: 60px;
+	
+}
+
+#primario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+
+}
+
+#duas-colunas #primario{
+	width: 550px;
+	margin: 0 0 20px 200px;
+	
+}
+
+#uma-coluna #primario{
+	width: 750px;
+	margin: 0 0 20px 0;
+	
+}
+
+#secundario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+	
+}
+
+#lateral {
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+
+/*Rodape*/
+#container-rodape{
+	background: #009999;
+	padding: 15px;
+}
+
+/*Caixa*/
+
+.caixa{
+	margin: 10px 0;
+	padding: 5px 0 5px 0;
+}
+
+
+h2{
+	font-size: 1em;
+	background: #009999;
+	color: #fff;
+	padding: 5px;
+}
+
+p{
+	color: #003333;
+}
+
+.caixa-conteudo{
+	background: #fff;
+	padding: 5px 5px;
+	margin-top: 5px;	
+}
+
+
+/* Formatar menus laterais */
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+	background: #ebfafa url(../imagens/marcador1.png) no-repeat left center; /* não está funcionando / ajustar png*/
+	padding-left: 20px;
+	color: #006666;
+}
+
+/* Formatar formulários*/
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 120px;
+	font-size: 1em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 134px;
+	color: #fff;
+	background-color: #009999;
+	border: 2px	solid #009999;
+}
+
+/*Formatando imagens*/
+
+img.imagem-principal {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+	
+
+}
+
+img.imagem-catalogo {
+	border: 3px solid #009999;
+}
+
+.destaque h3 {
+	background: #6fdc6f;
+	color: #0a290a;
+}
+
+.comedouro h3 {
+	background: #6fdc6f;
+	
+}
+
+/*Formatando cabeçalhos*/
+
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+
+}
+
+
+/*Formatando cabeçalhos*/
+#projeto-rede li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+
+#projeto-rede li a img {
+	float: left;
+	margin: 5px;
+}
+
+#projeto-rede li a {
+	text-decoration: none;
+	}
+
+#projeto-rede li a h3 {
+	font-size: 0.8em;
+	color: #339933;
+}
+
+#projeto-rede li a p {
+		font-size: 0.7em;
+}
+
+#projeto-rede li:hover {
+	background: #ebfafa;
+	cursor: pointer;
+	
+}
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+
+}

@@ -1,0 +1,87 @@
+{
+    "caesDeRua": {
+      "cao": [
+        {
+          "@attributes": {
+            "id": "1"
+          },
+          "identificacao": "001",
+          "localizacao": {
+            "latitude": "XX.XXXXXX",
+            "longitude": "YY.YYYYYY",
+            "endereco": "Endereço completo"
+          },
+            "corPelagem": "Marrom",
+            "tamanho": "Médio",
+            "raca": "Indefinida",
+            "marcasDistintivas": "Nenhuma",
+            "condicaoDeSaude": "Ferido",
+          "comportamento": {
+            "sociabilidade": "Amigável",
+            "agressividade": "Não agressivo"
+          },
+          "genero": "Fêmea",
+          "idade": "Idosa",
+          "historia": "Encontrado na rua, aparentemente perdido.",
+          "fotografias": {
+            "foto": [
+              "lola01.jpg"
+              "lola02.jpg"
+              "lola03.jpg"
+            ]
+          },
+          "estadoEsterilizacao": "Não esterilizado",
+          "status": "Em busca de adoção",
+          "dataRegistro": "2023-08-08",
+          "nome": "Lola",
+          "contato": "Nome: João Silva | Telefone: (XX) XXXX-XXXX | Email: joao@email.com",
+          "cuidadosENecessidades": "Nenhum cuidado especial.",
+          "historicoAtendimento": "Nenhum atendimento médico registrado até o momento.",
+          "destino": "Em busca de um lar amoroso.",
+          "observacoes": "Nenhuma observação adicional."
+        },
+        {
+          "@attributes": {
+            "id": "2"
+          },
+          "identificacao": "002",
+          "localizacao": {
+            "latitude": "XX.XXXXXX",
+            "longitude": "YY.YYYYYY",
+            "endereco": "Endereço completo"
+          },
+            "corPelagem": "Preta e Branca",
+            "tamanho": "Grande",
+            "raca": "Indefinida",
+            "marcasDistintivas": "Nenhuma",          
+          "condicaoDeSaude": "Boa",
+          "comportamento": {
+            "sociabilidade": "Amigável",
+            "agressividade": "Não agressivo"
+          },
+          "genero": "Macho",
+          "idade": "Filhote",
+          "historia": "Encontrado na rua, aparentemente perdido.",
+          "fotografias": {
+            "foto": [
+              "coragem01.jpg"
+              "coragem02.jpg"
+              "coragem03.jpg"
+            ]
+          },
+          "estadoEsterilizacao": "Não esterilizado",
+          "status": "Em busca de adoção",
+          "dataRegistro": "2023-08-08",
+          "nome": "Coragem",
+          "contato": "Nome: Ana Silva | Telefone: (XX) XXXX-XXXX | Email: Ana@email.com",
+          "cuidadosENecessidades": "Nenhum cuidado especial.",
+          "historicoAtendimento": "Nenhum atendimento médico registrado até o momento.",
+          "destino": "Em busca de um lar amoroso.",
+          "observacoes": "Nenhuma observação adicional."
+        }
+      ]
+    }
+  }
+  
+  
+  
